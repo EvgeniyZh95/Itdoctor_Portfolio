@@ -1,0 +1,91 @@
+/* Устройства с очень маленьким экраном (смартфоны, меньше 768px) */
+
+/* Стили CSS (по умолчанию) - для ширины viewport <768px */
+
+@media (min-width: 280px) and (max-width: 768px) {
+    h1 {
+        font-size: 24px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    #swiperOne p {
+        font-size: 14px;
+    }
+    .bigButton {
+        padding: 15px 20px;
+    }
+    ul {
+        border: 1px dashed #676767;
+        max-width: 280px;
+        margin: 10px auto;
+    }
+    ul.price_list > li {
+        height: 40px;
+        line-height: 15px;
+        padding: 8px;
+    }
+    ul.price_list > li.header_price {
+        font-size: 14px;
+        line-height: 28px;
+        margin-bottom: 15px;
+    }
+    ul.price_list > li.price {
+        font-size: 18px;
+        height: 50px;
+        line-height: 25px;
+    }
+    .textInMake p {
+        font-size: 12px;
+    }
+    #portfolio .library p {
+        font-size: 10px;
+        min-height: 29px;
+    }
+    .slide2 {
+        font-size: 14px;
+    }
+    .slide2 img {
+        margin: 0 auto;
+    }
+    .slide2 .library img {
+        width: 180px;
+        height: 120px;
+    }
+    #tools p {
+        font-size: 12px;
+    }
+}
+
+/* Устроства с маленьким экраном (планшеты, 768px и выше) */
+
+@media (min-width: 768px) and (max-width: 992px) {
+    /* Стили для устройств с шириной viewport, находящейся в диапазоне 768px - 991px */
+    .navbar-default .navbar-nav > li > a {
+        font-size: 14px;
+    }
+    .container {
+        width: 100%;
+    }
+    .slide2 {
+        font-size: 12px;
+    }
+    #mainFooter h2 {
+        font-size: 26px;
+    }
+}
+
+/* Устройства со средним экраном (ноутбуки и компьютеры, 992px и выше) */
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    /* Стили для устройств с шириной viewport, находящейся в диапазоне 992px - 1199px */
+    .infoAboutMe {
+        font-size: 12px;
+    }
+}
+
+/* Устройства с большим экраном (компьютеры, 1200px и выше) */
+
+@media (min-width: 1200px) {
+    /* Стили для устройств с шириной viewport >1200px */
+}
